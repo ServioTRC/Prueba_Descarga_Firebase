@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "996322170520",
+    "firebase_url": "https://pruebadescargafirebase.firebaseio.com",
+    "project_id": "pruebadescargafirebase",
+    "storage_bucket": "pruebadescargafirebase.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:996322170520:android:ec2006d78df56357",
+        "android_client_info": {
+          "package_name": "mx.itesm.strc.prueba_descarga_firebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "996322170520-k8567lv8p5j023kuhtn5dpi9s783ghel.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "mx.itesm.strc.prueba_descarga_firebase",
+            "certificate_hash": "0279700dcc765c4fe213676699850cdf27bfcefb"
+          }
+        },
+        {
+          "client_id": "996322170520-otj9r0qf6ejnfog10lm2sqpg83gjcbuq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAFEcIrwscJuzPlsekw5bf_Tntz6XLIU5M"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "996322170520-otj9r0qf6ejnfog10lm2sqpg83gjcbuq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
