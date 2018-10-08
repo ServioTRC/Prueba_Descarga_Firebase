@@ -1,5 +1,6 @@
 package mx.itesm.strc.prueba_descarga_firebase;
 
+import android.content.Intent;
 import android.support.annotation.NonNull;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -66,7 +67,8 @@ public class PantallaDescarga extends AppCompatActivity {
                     count++;
                     progressBar.setProgress(count);
                 }
-                //Toast.makeText(getApplicationContext(), String.valueOf(Producto.lista_productos.get(0).getDescripcion()), Toast.LENGTH_LONG).show();
+                Intent intMostrarProductos = new Intent(getBaseContext(), MostrarProducto.class);
+                startActivity(intMostrarProductos);
             }
 
             @Override
